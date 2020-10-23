@@ -1,0 +1,57 @@
+body{
+  background-color: black;
+}
+
+h1,h2,h3 {
+  color: white;
+  font-family: zilla slab;
+  text-align: center;
+}
+
+p {
+color: white;
+font-family: zilla slab;
+font-size: 14px;
+}
+
+div {
+background-color: black;
+width: 50px;
+padding: 20px;
+}
+/* unvisited link */
+a:link {
+color: white;
+}
+
+/* visited link */
+a:visited {
+color: white;
+}
+
+/* mouse over link */
+a:hover {
+color: black;
+}
+
+.center {
+margin: auto;
+width: 5%;
+padding: 10px;
+}
+
+.right {
+position: absolute;
+text-align:center;
+right: 0px;
+width: 10%;
+padding: 10px;
+}
+
+.left {
+  position: absolute;
+  text-align:center;
+  left: 0px;
+  width: 10%;
+  padding: 10px;
+}
